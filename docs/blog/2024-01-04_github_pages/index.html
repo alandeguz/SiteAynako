@@ -22,7 +22,7 @@
 		<header>
 			<div class="wrapper">
 				<a href="/" class="site-name">DeGuzman-Arriola Website</a>
-				<nav>
+				<nav aria-label="Primary navigation">
 					<ul>
 						<li>
 							<a href="/who/">Family Tree</a></li>
@@ -34,7 +34,7 @@
 							<a href="/misc/">Misc</a></li>
 						<li>
 							<a href="/blog/" class="selected">Blog</a></li></ul></nav></div></header>
-		<div class="wrapper">
+		<main class="wrapper">
 			<article>
 				<div class="common">
 					<div class="content"><h1>Goodbye, NFSN. Hello Github Pages</h1><p>When I started this website, I was working at a company called Third Eye Media<sup><a class="footnote" href="#fn1" id="ref1">1</a></sup>. I <i>borrowed</i> some hosting space and put out the original version of this site in <a href="https://web.archive.org/web/20010723063147/http://www.ay-nako.net/">June 2001</a>.</p><p>When I left for a new job, I had to find another hosting service. Enter NFSN<sup><a class="footnote" href="#fn2" id="ref2">2</a></sup>.</p><ul><li>HTML/PHP hosting? &check;</li><li>Inexpensive? &check;</li><li>Are free-speech advocate of the then-blossoming space known as the World Wide Web? &check;</li></ul><p>I used PHP all the way back in 1995 when I still maintained an old <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">UIUC</a> math department project website<sup><a class="footnote" href="#fn3" id="ref3">3</a></sup> for some old friends of mine. And I used PHP at Third Eye, too. So NFSN was a clear choice for me.</p><p>That said, I didn't <em>need</em> PHP for my site. Having common code that generated shared headers, footers, and other repated elements of a website was always a plus. As I moved away from pure web development in my career, I thought about replacing the site with static web pages. But most of them were written in Javascript<sup><a class="footnote" href="#fn4" id="ref4">4</a></sup>. Ugh. But I was saved with <a href="../2022-02-05_new_launch/">Publish</a>.</p><p>With a purely static site, I decided to move this site to <a href="https://pages.github.com/">Github Pages</a>. Easy to configure, fast, reliable, and inexpensive (free with some technical constraints, but importantly no ads).</p><p>So long, NFSN, and thanks for all the fish<sup><a class="footnote" href="#fn5" id="ref5">5</a></sup>.</p><hr><sup id="fn1">
@@ -54,7 +54,9 @@
 <br>
 
 <sup id="fn4">
-4. With a nod to <a href="https://youtu.be/hCW_AsMnXFo?t=84">Sterling Archer</a>: <q>Javascript is the Dane Cook of programming languages.</q> <a class="footnote" href="#ref4" title="Jump back to footnote 4 in the text.">↩</a>
+4. With a nod to <a href="https://youtu.be/hCW_AsMnXFo?t=84">Sterling Archer</a>
+    <blockquote>Javascript is the Dane Cook of programming languages.</blockquote>
+    <a class="footnote" href="#ref4" title="Jump back to footnote 4 in the text.">↩</a>
 </sup>
 
 <br>
@@ -76,15 +78,14 @@
 					<li>
 						<a href="/tags/php/">php</a></li>
 					<li>
-						<a href="/tags/publish/">publish</a></li></ul></article></div>
+						<a href="/tags/publish/">publish</a></li></ul></article></main>
 		<footer>
 			<p>
-&copy; 2000-2024 by 
+&copy; 2000-2026 by 
 				<a href="/who/aland/" rel="author">Alan DeGuzman</a></p>
-			<p>
-licensed under
-				<a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" rel="license">
-					<span>CC BY 4.0</span>
-					<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" class="cc">
-					<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" class="cc"></a></p></footer></body>
+			<p class="foot">
+				<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons CC icon" class="cc">
+				<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons BY icon" class="cc">
+Except where otherwise noted, content on this site is licensed under a
+				<a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" rel="license noopener">Creative Commons Attribution 4.0 International license.</a></p></footer></body>
 </html>

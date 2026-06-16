@@ -67,11 +67,18 @@ nav {
     margin-top: 20px;
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 14px;
+}
+
 nav li {
-    display: inline-block;
-    margin: 0 7px;
-    line-height: 1.5em;
-    padding: 4px;
+    display: block;
+    margin: 0;
+    line-height: 1.8em;
+    padding: 0;
 }
 
 nav li a {
@@ -80,6 +87,7 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     background-color: #000000;
+    border: 1px solid black;
 }
 
 nav li a.selected {
@@ -87,7 +95,9 @@ nav li a.selected {
 }
 
 nav li a:hover {
-    text-decoration: underline;
+    background: #fff;
+    color: #000;
+    border: 1px solid black;
 }
 
 .wrapper .content hr {
@@ -121,32 +131,19 @@ a {
 }
 
 .cc {
-    height: 14px!important;
-    margin-left: 3px;
+    height: 14px !important;
+    margin-left: 0;
+    margin-right: 0;
     vertical-align: text-bottom;
 }
 
-img[alt*="family-picture"] {
+.cc + .cc {
+    margin-left: -18px;
+}
+
+img[alt="DeGuzman-Arriola family portrait"] {
     max-width: 100%;
     height: auto;
-    margin-bottom:10px;
-}
-
-img[alt*="family-with-parrot"] {
-    max-width: 50%;
-    height: auto;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-img[alt*="closet"] {
-    float:right;
-    padding-left: 20px;
-    width: 251px;
-    height:448px;
-}
-
-img[alt*="family-picture"] {
     border: 2px solid #000000;
     margin-left: auto;
     margin-right: auto;
@@ -154,7 +151,21 @@ img[alt*="family-picture"] {
     margin-bottom: 20px;
 }
 
-img[alt*="social-icon"] {
+img[alt="family-with-parrot"] {
+    max-width: 50%;
+    height: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+img[alt="closet"] {
+    float:right;
+    padding-left: 20px;
+    width: 251px;
+    height:448px;
+}
+
+img[alt$="icon"]{
     vertical-align: middle;
     width: 32px;
     height: 32px;
@@ -196,6 +207,11 @@ img[alt*="About-Macbook-Pro"] {
     margin-left: 20px;
 }
 
+.common a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
 a.footnote {
     text-decoration: none;
     font-weight: bold;
@@ -228,16 +244,25 @@ a.footnote {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #000;
-    color: #ddd;
-    padding: 4px 6px;
-    border-radius: 5px;
-    margin-right: 5px;
+
 }
 
 .tag-list a,
 .tag a {
     text-decoration: none;
+    background-color: #000;
+    color: #ddd;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.tag-list a:hover,
+.tag a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid black;
 }
 
 .item-page .tag-list {
