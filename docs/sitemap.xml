@@ -4,7 +4,7 @@
 		<loc>https://www.ay-nako.net/blog/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
-		<lastmod>2026-06-16</lastmod>
+		<lastmod>2026-06-19</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/blog/2026-06-16_fixes/</loc>
@@ -16,7 +16,7 @@
 		<loc>https://www.ay-nako.net/blog/2024-01-04_github_pages/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
-		<lastmod>2026-06-14</lastmod>
+		<lastmod>2026-06-16</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/blog/2023-12-24_open_core/</loc>
@@ -52,36 +52,36 @@
 		<loc>https://www.ay-nako.net/credits/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
-		<lastmod>2024-01-04</lastmod>
+		<lastmod>2022-02-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/misc/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
-		<lastmod>2024-01-04</lastmod>
+		<lastmod>2022-02-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/pictures/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
-		<lastmod>2024-01-04</lastmod>
+		<lastmod>2022-02-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/who/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
-		<lastmod>2026-06-13</lastmod>
+		<lastmod>2026-06-19</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/who/addison/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
-		<lastmod>2026-06-13</lastmod>
+		<lastmod>2022-02-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.ay-nako.net/who/aland/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
-		<lastmod>2026-06-15</lastmod>
+		<lastmod>2026-06-19</lastmod>
 	</url>
 </urlset>
